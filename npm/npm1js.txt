@@ -1,0 +1,11 @@
+{
+  "name": "sankhuz1",
+  "version": "1.0.0",
+  "description": "yeah buddy just my 1st npm packa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanskar",
+  "license": "ISC"
+}

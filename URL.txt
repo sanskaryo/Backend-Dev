@@ -1,0 +1,61 @@
+https://github.com/sanskaryo
+
+
+
+
+(456,	'Doris ',	3.9 , 1000,	"1997-07-24")
+(567,	'Edward',	2.9	, 2000,	'1996-12-21')
+
+(678, 'Fay',3.8,200	'27-Aug-96')	'
+(789,	"Gary"  ,	3.4,	800,	'96-10-08'),	
+(987,	"Helen",	3.7,	800,	'97-03-27'),	
+(876,	"Irene",	3.9,	400,	'96-03-07'),	
+(765,	"Jay",	2.9,	1500,	'1998-08-08'),	
+(654,	"Amy",	3.9,	1000,	'1996-05-26'),	
+(543,	"Craig",	3.4,	2000,	'1998-08-27');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO students (sID, sName, GPA, sizeHS, DoB)
+VALUES (789, 'Gary', 3.4, 800, TO_DATE('8-Oct-96', 'DD-Mon-YY'));
+
+INSERT INTO students (sID, sName, GPA, sizeHS, DoB)
+VALUES (987, 'Helen', 3.7, 800, TO_DATE('27-Mar-97', 'DD-Mon-YY'));
+
+INSERT INTO students (sID, sName, GPA, sizeHS, DoB)
+VALUES (876, 'Irene', 3.9, 400, TO_DATE('7-Mar-96', 'DD-Mon-YY'));
+
+INSERT INTO students (sID, sName, GPA, sizeHS, DoB)
+VALUES (765, 'Jay', 2.9, 1500, TO_DATE('9-Aug-96', 'DD-Mon-YY'));
+
+INSERT INTO students (sID, sName, GPA, sizeHS, DoB)
+VALUES (654, 'Amy', 3.9, 1000, TO_DATE('26-May-96', 'DD-Mon-YY'));
+
+
+
+
+INSERT INTO Apply (sID, cName , major, decision)
+
+
+
+
+
+
+
+
+
+
+
+
+
