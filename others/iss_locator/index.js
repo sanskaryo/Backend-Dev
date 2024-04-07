@@ -1,0 +1,1 @@
+// build a page that shows location of ISS  with mao and picture using this api  https://api.wheretheiss.at/v1/satellites/25544

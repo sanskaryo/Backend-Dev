@@ -1,27 +1,28 @@
 import express from "express";
+import path from "path";
 
 const app = express();
-const port = 3000;
+const port = 5000;
+
+// Set up EJS as the view engine
+app.set("view engine", "ejs");
+app.set("views", path.join(import.meta.url, "views"));
+
 
 app.get("/", (req, res) => {
   const today = new Date();
-  //Test code
-  // weekend:
-  // new Date("June 24, 2023 11:13:00");
-  // weekday:
-  // new Date("June 20, 2023 11:13:00");
   const day = today.getDay();
 
-  // console.log(day);
   let type = "a weekday";
-  let adv = "it's time to work hard , common man get up early and achieve  yours goals";
+  let adv =
+    "It's time to work hard, common man! Get up early and achieve your goals.";
 
   if (day === 0 || day === 6) {
     type = "the weekend";
-    adv = "it's time to have some fun";
+    adv = "It's time to have some fun.";
   }
 
-  res.render("index.ejs", {
+  res.render("index", {
     dayType: type,
     advice: adv,
   });
